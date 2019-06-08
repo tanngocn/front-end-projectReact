@@ -1,0 +1,94 @@
+*{
+	margin:0;padding: 0;
+}
+
+a.forget-form {
+    float: right;
+}
+
+div#signup {
+    float: left;
+}
+
+a.btn-login {
+    display: block;
+    background: #29b719;
+    text-align: center;
+    padding: .2em;
+    text-decoration: none;
+    font-size: 120%;
+    color: #e7e703;
+    margin-top: 1em;
+}
+
+img.logo_thumb {
+    width: 100px;
+}
+
+input.form_style {
+    height: 30px;
+    min-width: 100%;
+    border-radius: .4em 0 0;
+    border: none;
+    outline: none;
+    left: 0px;
+    display: block;
+    border-bottom: 5px solid black;
+    padding: .4em;
+}
+
+
+ input:focus +label.label_style:hover  {
+  top:0px
+}
+
+input.form-style {
+    display: block;
+    max-width: 90%;
+    position:relative;
+}
+
+label.label_style {
+    display: inline-block;
+    font-size: 100%;
+    color: #246a9c;
+    padding: .1em 0em;
+    position: absolute;
+    top: 27px;
+    left: 5px;
+    z-index: 2;
+    transition:0.5s;
+}
+
+
+
+.form_group_style {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: .4em;
+    outline: none;
+    position: relative;
+}
+
+section#login-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    background-size: cover;
+    padding: 2em;
+    width: 350px;
+    height: 320px;
+    border-radius: .5em;
+    border: 1px solid;
+    box-shadow: 0em 1em 3em -2em;
+}
+
+div#container {
+    width: 1170px;
+    padding: 1em calc(50% - 585px);
+}
+input[type!="checkbox"],input[type!="radio"]{
+	
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Thêm mới sản phẩm</title>
+	<link rel="stylesheet" href="./../css/admin_page.css">
+</head>
+<body>
+	<div class="form_container">					
+			<section class="form form_createProduct">
+					<div class="title_page">
+					<h1  class="title_product_detail">Thêm sản phẩm </h1>
+					<hr class="title_line review">
+				</div>
+				<div class="info1">
+						<input type="file" name="imgFile" id="img_product">
+						<label  class="file" for="img_product" title="Thêm ảnh"><i class="fas fa-camera-retro"></i></label>
+						<img src="../images/3.png" alt="img_product" class="imgProduct">
+						<button class="btnUpload"><i class="fas fa-upload"></i> Upload</button>
+				</div>
+				<div class="info2">
+					<div class="form_group_style">
+							<input type="text" name="nameProduct" id="nameProduct"  required="" class="form-ctr">
+							<label for="nameProduct" class="label-form" >  Tên sản phẩm:</label>
+					</div>		
+					<div class="form_group_style">
+						<input type="number" name="priceProduct" id="priceProduct" min="1" value="" required="" class="form-ctr">
+						<label for="priceProduct" class="label-form" > Giá :</label>
+					</div>
+					<div class="form_group_style">
+						<input type="number" name="qualityProduct" id="qualityProduct" min="1" value="" required="" class="form-ctr">
+						<label for="qualityProduct" class="label-form" > Số lượng:</label>
+					</div>
+					<div class="form_group_style">
+						<select name="kindProduct" id="kindProduct" class="form-ctr add">
+							<option value="0">Nhẫn</option>
+							<option value="1">Dây chuyền </option>
+							<option value="2">Vòng tay </option>
+							<option value="2">Bông tai </option>
+						</select>
+						<label for="kindProduct" class="label-form" > Loại sản phẩm:</label>
+					</div>
+					<div class="form_group_style">
+						<select name="brands" id="brands" class="form-ctr add">
+							<option value="0">Vàng</option>
+							<option value="1">Bạch Kim </option>
+							<option value="3">Bạc </option>
+							<option value="4">Gỗ  </option>
+							
+						</select>
+						<label for="brands" class="label-form" > Chất liệu:</label>
+					</div>
+					<div class="form_group_style">
+						<textarea name="description" id="description"  class="form-ctr add" required=""></textarea>
+						<label for="description" class="label-form add" >Mô tả:</label>
+					</div>
+					
+						<button class="addProduct" title="Thêm sản phẩm">Save</button>
+						<button  class="addProduct resetProduct" title="Hủy thao tác"> Back</button>
+					
+				</div>
+				
+			</section>
+		
+	</div>
+</body>
+</html>

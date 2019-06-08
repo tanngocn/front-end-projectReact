@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Danh sách sản phẩm</title>
+	<link rel="stylesheet" href="./css/admin_page.css">
+
+</head>
+<body>
+	<!-- Header -->
+	<header class="container ">
+		<nav class="menu">
+			<a href=""><img src="./logo.svg" alt="logo" class="logo_user"></a>	
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="" class="nav-link">About Us</a></li>
+				<li class="nav-item"><a href="" class="nav-link">Product</a></li>
+				<li class="nav-item"><a href="" class="nav-link">Help</a></li>	
+				<li class="nav-item"><a href="" class="nav-link"><i class="fas fa-user-circle"></i> Login</a></li>	
+				<li class="nav-item"><a href="" class="nav-link"><i class="fas fa-shopping-cart"></i></a></li>
+			</ul>
+		</nav>	
+	</header>
+	<!-- End Header -->
+	<section class="container">
+		<section class="product_list_page">
+			<aside class="sort_product">
+				<div class="title_page">
+					<h1  class="title_product_detail">Tìm kiếm theo:</h1>
+					<hr class="title_line review">
+				</div>
+				<div class="sort">
+					<div class="form_group_style sortBy">
+						<select name="kindProduct" id="kindProduct" class="form-ctr">
+							<option value="0">PNJ</option>
+							<option value="1">DOJI </option>
+							<option value="2">PRECITA </option>
+							<option value="3">EROPI </option>
+							<option value="4">SJC </option>
+						</select>
+						<label for="kindProduct" class="label-form" > Thương hiệu:</label>
+					</div>
+					<div class="form_group_style sortBy">
+						<select name="kindProduct" id="kindProduct" class="form-ctr">
+							<option value="0">Nhẫn </option>
+							<option value="1">Bông tai </option>
+							<option value="2">Dây chuyền </option>
+							<option value="3">Vòng tay </option>
+						</select>
+						<label for="kindProduct" class="label-form" > Loại sản phẩm:</label>
+					</div>
+					<div class="form_group_style sortBy">
+						<select name="kindProduct" id="kindProduct" class="form-ctr">
+							<option value="0">Vải</option>
+							<option value="1">Vàng </option>
+							<option value="2">Bạch kim </option>
+							<option value="3">Gỗ </option>
+						</select>
+						<label for="kindProduct" class="label-form" > Chất liệu:</label>
+					</div>
+					<div class="form_group_style sortBy">
+						<select name="kindProduct" id="kindProduct" class="form-ctr">
+							<option value="0">Dưới 10 triệu</option>
+							<option value="1">Từ 10 triệu -20 triệu</option>
+							<option value="2">Trên 20 triệu </option>
+						</select>
+						<label for="kindProduct" class="label-form" > Giá thành:</label>
+					</div>
+				</div>	
+				<div class="title_page">
+					<h1  class="title_product_detail">Nhãn hiệu:</h1>
+					<hr class="title_line review">
+				</div>
+				<ul class="list_kind">
+					<li><a href="">Pnj ()</a></li>
+					<li><a href="">Doji ()</a></li>
+					<li><a href="">Precita ()</a></li>
+					<li><a href="">Eropi ()</a></li>
+					<li><a href="">Sjc ()</a></li>
+				</ul>
+				<div class="title_page">
+					<h1  class="title_product_detail">Chất liệu:</h1>
+					<hr class="title_line review">
+				</div>
+				<ul class="list_kind">
+					<li><a href="">Nhẫn ()</a></li>
+					<li><a href="">Bông Tai ()</a></li>
+					<li><a href="">Dây chuyền ()</a></li>
+					<li><a href="">Vòng tay ()</a></li>
+				</ul>
+				<div class="title_page">
+					<h1  class="title_product_detail">Kích thước:</h1>
+					<hr class="title_line review">
+				</div>
+				<ul class="list_kind">
+					<li><a href="">12 x 15 inches ()</a></li>
+					<li><a href="">16 inches ()</a></li>
+					<li><a href="">22 inches ()</a></li>
+					<li><a href="">4  inches ()</a></li>
+
+				</ul>
+				
+			</aside>
+			
+			<section class="product_list_item">
+				<div class="title_page">
+					<h1  class="title_product_detail">Title here:</h1>
+					<hr class="title_line review">
+				</div>
+				<div class="form_group_style showProduct">
+					<select name="kindProduct" id="kindProduct" class="form-ctr">
+						<option value="0">8 Sản phẩm</option>
+						<option value="1">8 sản phẩm - 16 sản phẩm</option>
+						<option value="2">Trên 16 sản phẩm</option>
+					</select>
+					<label for="kindProduct" class="label-form" > Hiện thị :</label>
+				</div>
+				<div class="product_item">
+					<a href=""><img src="images/5.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/6.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/7.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/2.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/5.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="ip3.png" alt="images" class="product_img"></a>
+					<span class="status">Còn hàng</span> <!--Hết hàng -->
+					<h3 class="name_product">Iphone xs 256gb</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/7.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/2.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/5.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/6.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/7.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/2.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/7.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/2.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/7.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+				<div class="product_item">
+					<a href=""><img src="images/2.png" alt="images" class="product_img"></a>
+					<h3 class="name_product">Name_product</h3>
+					<span class="price">Price_product</span>
+					<div class="listbtn">
+						<a href="" class="btnn btn-add"><i class="fas fa-cart-plus"></i></a>
+						<a href="" class="btnn btn-view"><i class="fas fa-eye"></i></a>
+					</div>
+				</div>
+				<!-- end product_item -->
+			</section>
+		</section>
+		<!-- product_list_page -->
+	</section>
+	<!-- end container -->
+	<!-- Footer -->
+	<section class="container">		
+		<footer id="footer_admin">          
+			<section id="contact">        
+				<img src="./logo.svg" alt="logo_footer" id="logo_footer">
+				<span class="info_contact"> <i class="fas fa-envelope"></i> tanngocn@gmail.com </span>
+				<span class="info_contact"> <i class="fas fa-phone"></i> (+84) 969948583 </span>
+				<span class="info_contact"> <i class="fas fa-map-marked-alt"></i>  Khối xuân khoa, Thị trấn Nam đàn, Nam đàn, Nghệ an</span>
+				<span class="info_contact copyright">  Copyright &copy 2019 developer NgocNT</span>
+			</section>
+			<section id="nav_footer">        
+				<h1 class="title_footer">Navigate</h1>
+				<ul id="menu_footer">
+					<li><a href="">Home</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Product</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</section>
+			<section id="link_footer">        
+				<h1 class="title_footer">technology</h1>
+				<ul id="menu_link">
+					<li><a href=""><i class="fab fa-js"></i></a></li>
+					<li><a href=""><i class="fab fa-css3-alt"></i></a></li>
+					<li><a href=""><i class="fab fa-react"></i></a></li>
+					<li><a href=""><i class="fab fa-html5"></i></a></li>
+				</ul>
+				
+			</section>
+
+			<section id="form_footer">        
+				<h1 class="title_footer">Contact</h1>
+				<div class="form_group_style">
+					<input type="text" name="" id="emailContact" class="form-ctr footer" required="">
+					<label  for="emailContact" class="label-form"> Email:</label>
+				</div>
+				<div class="form_group_style">
+					<textarea name="" id="messageContact"  class="form-ctr footer" required=""></textarea>
+					<label for="messageContact"class="label-form"> Message:</label>
+				</div>
+				<a href="" class="submit_footer ">Submit</a>
+			</section>
+			
+		</footer>
+	</section>
+</body>
+</html>
